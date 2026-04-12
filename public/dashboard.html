@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>SIGOV License Control</title>
+
+<style>
+
+body{
+ background:#0b0f17;
+ font-family:Arial;
+ color:white;
+ padding:40px;
+}
+
+h1{
+ color:#00e5ff;
+}
+
+input{
+ padding:10px;
+ margin-right:10px;
+}
+
+button{
+ padding:10px;
+ background:#00e5ff;
+ border:none;
+}
+
+table{
+ width:100%;
+ margin-top:20px;
+ border-collapse:collapse;
+}
+
+td,th{
+ border:1px solid #333;
+ padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>SIGOV LICENSE CONTROL</h1>
+
+<input id="client" placeholder="Client">
+<button onclick="create()">Create License</button>
+
+<table>
+<thead>
+
+<tr>
+<th>ID</th>
+<th>KEY</th>
+<th>CLIENT</th>
+<th>STATUS</th>
+<th>ACTION</th>
+</tr>
+
+</thead>
+
+<tbody id="table"></tbody>
+
+</table>
+
+<script>
+
+async function load(){
+
+ const r=await fetch("/api/licenses")
+ const data=await r.json()
+
+ const t=document.getElementById("table")
+
+ t.innerHTML=""
+
+ data.forEach(l=>{
+
+  t.innerHTML+=`
+  <tr>
+  <td>${l.id}</td>
+  <td>${l.license_key}</td>
+  <td>${l.client}</td>
+  <td>${l.active?"ACTIVE":"DISABLED"}</td>
+  <td>
+  <button onclick="toggle('${l.id}')">Toggle</button>
+  </td>
+  </tr>
+  `
+
+ })
+
+}
+
+async function create(){
+
+ const client=document.getElementById("client").value
+
+ await fetch("/api/create",{
+  method:"POST",
+  headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({client})
+ })
+
+ load()
+
+}
+
+async function toggle(id){
+
+ await fetch("/api/toggle",{
+  method:"POST",
+  headers:{"Content-Type":"application/json"},
+  body:JSON.stringify({id})
+ })
+
+ load()
+
+}
+
+load()
+
+</script>
+
+</body>
+</html>

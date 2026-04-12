@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ultra License Control</title>
+
+<style>
+
+body{
+background:black;
+color:#00ffff;
+font-family:Arial;
+padding:40px;
+}
+
+input{
+padding:10px;
+margin-right:10px;
+}
+
+button{
+padding:10px;
+background:#00ffff;
+border:none;
+cursor:pointer;
+}
+
+table{
+margin-top:30px;
+width:100%;
+border-collapse:collapse;
+}
+
+td,th{
+border:1px solid #333;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>ULTRA LICENSE CONTROL</h1>
+
+<input id="key" placeholder="License Key">
+<input id="client" placeholder="Client">
+
+<button onclick="createLicense()">Create</button>
+
+<table>
+
+<thead>
+<tr>
+<th>ID</th>
+<th>KEY</th>
+<th>CLIENT</th>
+<th>STATUS</th>
+<th>ACTION</th>
+</tr>
+</thead>
+
+<tbody id="table"></tbody>
+
+</table>
+
+<script>
+
+async function loadLicenses(){
+
+const res = await fetch("/api/licenses")
+const data = await res.json()
+
+const table = document.getElementById("table")
+table.innerHTML=""
+
+data.forEach(l=>{
+
+const row=document.createElement("tr")
+
+row.innerHTML=`
+<td>${l.id}</td>
+<td>${l.license_key || "N/A"}</td>
+<td>${l.client_name || "N/A"}</td>
+<td>${l.active ? "ACTIVE" : "DISABLED"}</td>
+<td>
+<button onclick="toggle('${l.id}')">
+${l.active ? "Disable" : "Enable"}
+</button>
+</td>
+`
+
+table.appendChild(row)
+
+})
+
+}
+
+async function createLicense(){
+
+const key=document.getElementById("key").value
+const client=document.getElementById("client").value
+
+await fetch("/api/create",{
+method:"POST",
+headers:{ "Content-Type":"application/json"},
+body:JSON.stringify({key,client})
+})
+
+loadLicenses()
+
+}
+
+async function toggle(id){
+
+await fetch("/api/toggle",{
+method:"POST",
+headers:{ "Content-Type":"application/json"},
+body:JSON.stringify({id})
+})
+
+loadLicenses()
+
+}
+
+loadLicenses()
+
+</script>
+
+</body>
+</html>

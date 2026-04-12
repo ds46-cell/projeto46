@@ -1,0 +1,1378 @@
+[
+  {
+    "timestamp": "2026-01-04T12:41:57.493Z",
+    "data": {
+      "empresa": "Empresa Alpha",
+      "tipo": "financeiro",
+      "nivelRisco": 9,
+      "descricao": "Risco de liquidez"
+    },
+    "previousHash": "GENESIS",
+    "hash": "27c3c5a5a13819fc3500f35e096f6c1935704669d36a1fe26e2ae9745fb1b10b"
+  },
+  {
+    "timestamp": "2026-01-04T13:16:59.168Z",
+    "data": {
+      "empresa": "Empresa Gamma",
+      "tipo": "financeiro",
+      "nivelRisco": 9,
+      "descricao": "Teste final",
+      "risk": "CRITICO"
+    },
+    "previousHash": "27c3c5a5a13819fc3500f35e096f6c1935704669d36a1fe26e2ae9745fb1b10b",
+    "hash": "98ae814bb558575bb49376297cf060448544d7c4b11bd45704bded8410225801"
+  },
+  {
+    "timestamp": "2026-01-04T13:53:15.303Z",
+    "data": {
+      "empresa": "Empresa Delta",
+      "tipo": "operacional",
+      "nivelRisco": 7,
+      "descricao": "Falha sist�mica",
+      "risk": "ALTO"
+    },
+    "previousHash": "98ae814bb558575bb49376297cf060448544d7c4b11bd45704bded8410225801",
+    "hash": "1093fd059b14dc8b68ec93d0dab7605388408670897a85615debcbab06708d58"
+  },
+  {
+    "timestamp": "2026-01-06T00:35:18.054Z",
+    "empresa": "Global Bank Intl",
+    "tipo": "financeiro",
+    "nivelRisco": 9,
+    "descricao": "Systemic banking collapse risk",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "1093fd059b14dc8b68ec93d0dab7605388408670897a85615debcbab06708d58",
+    "hash": "81358919747c06e4b154c8d4961a7b7785dae7b2f79f4712bef045e5275fbab5"
+  },
+  {
+    "timestamp": "2026-01-06T15:30:38.083Z",
+    "empresa": "Global Bank Intl",
+    "tipo": "financeiro",
+    "nivelRisco": 9,
+    "descricao": "Persistent systemic risk test",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "81358919747c06e4b154c8d4961a7b7785dae7b2f79f4712bef045e5275fbab5",
+    "hash": "67b70b91e1e01c6fc8c1be9902b1ab4e8d6a17f9228bc32d1126fe758f7ea786"
+  },
+  {
+    "timestamp": "2026-01-06T20:41:59.204Z",
+    "empresa": "Global Bank Intl",
+    "tipo": "financeiro",
+    "nivelRisco": 9,
+    "descricao": "Systemic banking collapse risk",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "67b70b91e1e01c6fc8c1be9902b1ab4e8d6a17f9228bc32d1126fe758f7ea786",
+    "hash": "134ec04f92e2ec40478464d853e4d80a7e4450aa1d27fe58f15db49e9c10b8a3"
+  },
+  {
+    "timestamp": "2026-01-06T21:05:19.709Z",
+    "empresa": "Global Bank Intl",
+    "tipo": "financeiro",
+    "nivelRisco": 9,
+    "descricao": "Systemic banking collapse risk",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "134ec04f92e2ec40478464d853e4d80a7e4450aa1d27fe58f15db49e9c10b8a3",
+    "hash": "3bdb228ce19a87ff2902f76470a8bbafb51db8b513db1b7fc1b7a3b1d913c91c"
+  },
+  {
+    "timestamp": "2026-01-06T21:05:19.748Z",
+    "empresa": "Impacto sistêmico (energia)",
+    "tipo": "energia",
+    "nivelRisco": 7,
+    "descricao": "Risco derivado do setor financeiro",
+    "risk": "HIGH",
+    "score": 70,
+    "propagated": true,
+    "previousHash": "3bdb228ce19a87ff2902f76470a8bbafb51db8b513db1b7fc1b7a3b1d913c91c",
+    "hash": "71dbf9117f4abd41d48740b8f926c764ef32beb132b6e936e3480fb96bcaf6a1"
+  },
+  {
+    "timestamp": "2026-01-06T21:05:19.751Z",
+    "empresa": "Impacto sistêmico (tecnologia)",
+    "tipo": "tecnologia",
+    "nivelRisco": 7,
+    "descricao": "Risco derivado do setor financeiro",
+    "risk": "HIGH",
+    "score": 70,
+    "propagated": true,
+    "previousHash": "71dbf9117f4abd41d48740b8f926c764ef32beb132b6e936e3480fb96bcaf6a1",
+    "hash": "abe062e86f720a7cd556d9090dc097d02e95c1f3c1c62250916ad13e2600b42b"
+  },
+  {
+    "timestamp": "2026-01-06T22:32:25.863Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "abe062e86f720a7cd556d9090dc097d02e95c1f3c1c62250916ad13e2600b42b",
+    "hash": "b4a3617061ee061ce975aa2ab76ff5b541fe132d53e02bc3b047baf646e563e1"
+  },
+  {
+    "timestamp": "2026-01-06T22:32:44.643Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "b4a3617061ee061ce975aa2ab76ff5b541fe132d53e02bc3b047baf646e563e1",
+    "hash": "836276ecf770e310ccb1b8bb85c69f39068522cdf9d087cf1d4efd7b2ef9ba79"
+  },
+  {
+    "timestamp": "2026-01-06T22:34:16.165Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "836276ecf770e310ccb1b8bb85c69f39068522cdf9d087cf1d4efd7b2ef9ba79",
+    "hash": "bbbd598cb8dace32f22401dca00eee15be315e95ec8e596be1280e07a32d8a2a"
+  },
+  {
+    "timestamp": "2026-01-06T23:46:13.552Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "bbbd598cb8dace32f22401dca00eee15be315e95ec8e596be1280e07a32d8a2a",
+    "hash": "77d4f1dad1c6b4d81dbd95855463d7964b0bc2eb386e4cbf425fc68c1b60230b"
+  },
+  {
+    "timestamp": "2026-01-06T23:46:35.679Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "77d4f1dad1c6b4d81dbd95855463d7964b0bc2eb386e4cbf425fc68c1b60230b",
+    "hash": "5f99e577e83e6b20a929cbf4fb2805326d1c83e2aace081c9c61d918ecb1f2f5"
+  },
+  {
+    "timestamp": "2026-01-06T23:49:19.047Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "5f99e577e83e6b20a929cbf4fb2805326d1c83e2aace081c9c61d918ecb1f2f5",
+    "hash": "5cb04722e2aab918ab88a1c583a52450471fa74caaee1287584ba4f7f91fd822"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-06T23:58:09.398Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "5cb04722e2aab918ab88a1c583a52450471fa74caaee1287584ba4f7f91fd822",
+    "hash": "7c80180ebdef3e208c2826671fad2faf37f18f8b85ac02997fd4285fa5a25c15"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:10:39.436Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "7c80180ebdef3e208c2826671fad2faf37f18f8b85ac02997fd4285fa5a25c15",
+    "hash": "302d6f01cd6a50f846817ca8f09303817b769dda4d02ba73a7527ce1ed0274b2"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:16:42.106Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "302d6f01cd6a50f846817ca8f09303817b769dda4d02ba73a7527ce1ed0274b2",
+    "hash": "4fbd63418a274cefed20c6bf65f32fd73c181bd343af5a115811e6eb1b4fe2c8"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:20:15.861Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "4fbd63418a274cefed20c6bf65f32fd73c181bd343af5a115811e6eb1b4fe2c8",
+    "hash": "55f2620e3010df7c58fe964f615dbf9ea9a246d05390929a168e5b28adc66086"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:28:18.378Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "55f2620e3010df7c58fe964f615dbf9ea9a246d05390929a168e5b28adc66086",
+    "hash": "dbd1e0687809dc97f9ed39ced799f06b901521a2e377e6a852ef71100d087fb4"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:33:48.273Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "dbd1e0687809dc97f9ed39ced799f06b901521a2e377e6a852ef71100d087fb4",
+    "hash": "651dfeeab8d59a46e991553aaa50f51aacf7fa3320b08dea126d617f877e2d82"
+  },
+  {
+    "timestamp": "2026-01-07T14:38:11.604Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "651dfeeab8d59a46e991553aaa50f51aacf7fa3320b08dea126d617f877e2d82",
+    "hash": "c8e3bdb1773317c5ef8fab3302a071d44125c4f255c8c71dc4a7333da81d2670"
+  },
+  {
+    "timestamp": "2026-01-07T14:38:11.634Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "c8e3bdb1773317c5ef8fab3302a071d44125c4f255c8c71dc4a7333da81d2670",
+    "hash": "911cfd49ee2f5ccfb952e19547e8ac839c6a41d7b1c48149527ffc7bb112b27a"
+  },
+  {
+    "timestamp": "2026-01-07T14:38:11.634Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "911cfd49ee2f5ccfb952e19547e8ac839c6a41d7b1c48149527ffc7bb112b27a",
+    "hash": "e4290a15263bcdbff2049368ebe5d54d1f386369aa365b6af090931e11beb286"
+  },
+  {
+    "timestamp": "2026-01-07T14:41:41.467Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "e4290a15263bcdbff2049368ebe5d54d1f386369aa365b6af090931e11beb286",
+    "hash": "7e5ebf1c2a72a6d38d2194ff6121dd08db843732065fcf2ac9f5cfa7f8cff2e9"
+  },
+  {
+    "timestamp": "2026-01-07T14:41:41.518Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "7e5ebf1c2a72a6d38d2194ff6121dd08db843732065fcf2ac9f5cfa7f8cff2e9",
+    "hash": "8897bfa5bde2d9562334dd68e9199d5e4108284efadffc8855df64442c09c9ac"
+  },
+  {
+    "timestamp": "2026-01-07T14:41:41.518Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "8897bfa5bde2d9562334dd68e9199d5e4108284efadffc8855df64442c09c9ac",
+    "hash": "a35bde47c4a4ee0056b4ab59ab22650fa2792c15e9a6b9220b074510a6bd5c50"
+  },
+  {
+    "timestamp": "2026-01-07T14:46:05.625Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "a35bde47c4a4ee0056b4ab59ab22650fa2792c15e9a6b9220b074510a6bd5c50",
+    "hash": "d02a4d6c6e4590997266b0382ba710a4acfd236f21c00d56e7fe834ac2701644"
+  },
+  {
+    "timestamp": "2026-01-07T14:46:05.703Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "d02a4d6c6e4590997266b0382ba710a4acfd236f21c00d56e7fe834ac2701644",
+    "hash": "76f4f8531eaab19b3aa6a34fdfeee0e981dd981a96ba5f912b36a40becdf00dc"
+  },
+  {
+    "timestamp": "2026-01-07T14:46:05.703Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "76f4f8531eaab19b3aa6a34fdfeee0e981dd981a96ba5f912b36a40becdf00dc",
+    "hash": "e75c16819aa66342a6a6914375f6acf0b8d2de3c05837bdffd862863fe0f6ed9"
+  },
+  {
+    "timestamp": "2026-01-07T14:52:10.867Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "e75c16819aa66342a6a6914375f6acf0b8d2de3c05837bdffd862863fe0f6ed9",
+    "hash": "00589e58686d29a0ff66b464e58a9f82393f2080c4639f991ef54e512a9c8231"
+  },
+  {
+    "timestamp": "2026-01-07T14:52:10.942Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "00589e58686d29a0ff66b464e58a9f82393f2080c4639f991ef54e512a9c8231",
+    "hash": "6e6fe236d8b6467e01b2dc83708b1121da866ffd24875857e3fb256873d31ab1"
+  },
+  {
+    "timestamp": "2026-01-07T14:52:10.942Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "6e6fe236d8b6467e01b2dc83708b1121da866ffd24875857e3fb256873d31ab1",
+    "hash": "008362767a8b21dbd1a2a2461d9dc87ae086fa671489f6814117cce4538fcb03"
+  },
+  {
+    "timestamp": "2026-01-07T14:54:59.803Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "008362767a8b21dbd1a2a2461d9dc87ae086fa671489f6814117cce4538fcb03",
+    "hash": "536ea871d08a9a3fccaea7ee1cdf8b62b5488f802ac29f2a2ae00a7d0c027ff9"
+  },
+  {
+    "timestamp": "2026-01-07T14:54:59.849Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "536ea871d08a9a3fccaea7ee1cdf8b62b5488f802ac29f2a2ae00a7d0c027ff9",
+    "hash": "7aea334b481f3a4e2bde4ecd7e4fec9f172849b507a172ea0b68f66458fe2fff"
+  },
+  {
+    "timestamp": "2026-01-07T14:54:59.849Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "7aea334b481f3a4e2bde4ecd7e4fec9f172849b507a172ea0b68f66458fe2fff",
+    "hash": "11f10d93b24429fe84bb76725c5dbd86c1e4393c872e2fc2bf68cf6adfe73c6c"
+  },
+  {
+    "timestamp": "2026-01-07T20:43:16.963Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "11f10d93b24429fe84bb76725c5dbd86c1e4393c872e2fc2bf68cf6adfe73c6c",
+    "hash": "4446440cd075b6530110671525ce42930183a697b6c0bbfae7eb194c37d1b5e7"
+  },
+  {
+    "timestamp": "2026-01-07T20:43:17.044Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "4446440cd075b6530110671525ce42930183a697b6c0bbfae7eb194c37d1b5e7",
+    "hash": "10d2de5b30bad24f48d875662f587474068947c914319da99cf0462b983d1f64"
+  },
+  {
+    "timestamp": "2026-01-07T20:43:17.044Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "10d2de5b30bad24f48d875662f587474068947c914319da99cf0462b983d1f64",
+    "hash": "2a08ea306d5620319e32519619163f3c79ab0a33dde6e641aac966bae99cc3b1"
+  },
+  {
+    "timestamp": "2026-01-08T00:23:55.040Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "2a08ea306d5620319e32519619163f3c79ab0a33dde6e641aac966bae99cc3b1",
+    "hash": "f2ad7ac01ad616b7ea0b11bc6f255fe92f80c7e053c637e9d30b039e432957a2"
+  },
+  {
+    "timestamp": "2026-01-08T00:23:55.127Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "f2ad7ac01ad616b7ea0b11bc6f255fe92f80c7e053c637e9d30b039e432957a2",
+    "hash": "7a01f8bf0c5975f1cfb90c5fe8b65839d7ab6f5993cccccb166aa8f8f0ade03e"
+  },
+  {
+    "timestamp": "2026-01-08T00:23:55.127Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "7a01f8bf0c5975f1cfb90c5fe8b65839d7ab6f5993cccccb166aa8f8f0ade03e",
+    "hash": "ed57e9b726e206d64e4345255e9bc49f4e6c9e45430c8d2be5b6f5868b3d5dd7"
+  },
+  {
+    "timestamp": "2026-01-09T00:37:59.908Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "ed57e9b726e206d64e4345255e9bc49f4e6c9e45430c8d2be5b6f5868b3d5dd7",
+    "hash": "b95e5dc0fb1eaa12a2d7683aaf5ad6a82f96e44b2fc692a7b2d76bca7260474d"
+  },
+  {
+    "timestamp": "2026-01-09T00:38:00.017Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "b95e5dc0fb1eaa12a2d7683aaf5ad6a82f96e44b2fc692a7b2d76bca7260474d",
+    "hash": "597ec0857a7b6a4d1b67436490687ebddf158fceb2dc1d912aa53649b060e7af"
+  },
+  {
+    "timestamp": "2026-01-09T00:38:00.017Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "597ec0857a7b6a4d1b67436490687ebddf158fceb2dc1d912aa53649b060e7af",
+    "hash": "102ee3427a7d0e00ee1d58932a868f9dea156f9dd6718af1ccc2f87d102d7762"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "9938161d-dfb4-45da-a3d0-9c398f6867f0",
+      "title": "Aprovar orçamento de segurança",
+      "owner": "Ministro",
+      "criticality": 9,
+      "value": 5000000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "Ministro"
+      },
+      "emergency": false
+    },
+    "hash": "905dfeb52d0259a406d7e4ba7494d7881b2b507863344b84432182e676747644",
+    "timestamp": "2026-03-30T23:45:33.955Z"
+  },
+  {
+    "action": "BLOCKED_EXECUTION",
+    "decision": {
+      "id": "9938161d-dfb4-45da-a3d0-9c398f6867f0",
+      "title": "Aprovar orçamento de segurança",
+      "owner": "Ministro",
+      "criticality": 9,
+      "value": 5000000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "Ministro"
+      },
+      "emergency": false
+    },
+    "attemptedBy": "Diretor",
+    "hash": "60b6a798484881e808eb7ceb39ab3022f5a787b297c6a883ec7da138b67beb43",
+    "timestamp": "2026-03-30T23:47:52.851Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "9938161d-dfb4-45da-a3d0-9c398f6867f0",
+      "title": "Aprovar orçamento de segurança",
+      "owner": "Ministro",
+      "criticality": 9,
+      "value": 5000000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "Ministro"
+      },
+      "emergency": false,
+      "risk_before": 5000.87,
+      "risk_after": 4000.7,
+      "token": "f079e644ec6cdfd57202a408fbd79d0d"
+    },
+    "hash": "442b01c211e0d6c3f3ddf6cd35308888a66aefb7412262ef1184237a92a7e259",
+    "timestamp": "2026-03-30T23:49:52.286Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "9938161d-dfb4-45da-a3d0-9c398f6867f0",
+      "title": "Aprovar orçamento de segurança",
+      "owner": "Ministro",
+      "criticality": 9,
+      "value": 5000000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "Ministro",
+        "executor": "Diretor"
+      },
+      "emergency": false,
+      "risk_before": 5000.87,
+      "risk_after": 4000.7,
+      "token": "f079e644ec6cdfd57202a408fbd79d0d"
+    },
+    "hash": "42ae72d3ad78d0e6e48356d81653ec1f7dfcada95ad1911c7f9e6a2067f74d67",
+    "timestamp": "2026-03-30T23:51:53.692Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "6b2e5713-a27e-434b-bc47-0c3d6e63a208",
+      "title": "decisao",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 15,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "f1a81bac4a3520422e8b6a9e636b569f6d7eb416c238c8803ddcae3e9ec958a0",
+    "timestamp": "2026-03-31T00:03:38.429Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "68d7b1b6-852f-4063-be1f-eacf312fc9e2",
+      "title": "decisao",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 15,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "c129574d93a29af0370b4f918ad67e479f8551e1bb716c43e795ca3de8434aeb",
+    "timestamp": "2026-03-31T00:03:39.146Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "7d5461e1-3911-4953-b01b-1f3e1cc1fc7b",
+      "title": "decisao",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 15,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "72ff459ead6401b7d9313efb916b8ff958182808bae469eac7bbc3923137a251",
+    "timestamp": "2026-03-31T00:03:39.344Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "7f55bdeb-cb87-4e46-814e-85db7a749057",
+      "title": "decisao",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 15,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "fd5b3ae6292504a40e011e169747db887ca83231dd3a8ff7c80eb3d1b5c0e3c5",
+    "timestamp": "2026-03-31T00:03:39.530Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "d571e820-efd5-4111-9cf3-3b0d302fa17e",
+      "title": "decisao",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 15,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "839276d1ffa55b0822d64634391abdc466565e8186e7d2cbe0ddaab8be230fc4",
+    "timestamp": "2026-03-31T00:03:39.708Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "1a126ba3-13ae-4a82-ab5d-2576aae90376",
+      "title": "decisao",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 15,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "55cafe9a6e58178005d66924bf58ac2e38b25d58a25e710cdbc8608b6daae49c",
+    "timestamp": "2026-03-31T00:03:39.924Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "c78c68b6-278f-40f1-91b7-620a4c1a2e6d",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 25000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "4007d559edab82585a4f969790474923068b6473243141ae2c36c2a2beac3d33",
+    "timestamp": "2026-03-31T00:08:40.057Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "c78c68b6-278f-40f1-91b7-620a4c1a2e6d",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 25000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 25.49,
+      "risk_after": 20.39,
+      "token": "f0c6e603d05113ad0f9e86290e919008"
+    },
+    "hash": "6a8149bc95a52f35252d6ccae4d042a1d50d7ec6bcb9f0832ce7e1845e428b9b",
+    "timestamp": "2026-03-31T00:10:19.750Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "c78c68b6-278f-40f1-91b7-620a4c1a2e6d",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 25000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 25.91,
+      "risk_after": 20.73,
+      "token": "4b7e8c498884a6c2f92aa68540378b6a"
+    },
+    "hash": "f885ec8c7307c5fd2cdc6b0ea4a4f16530cf30d7711d255bffdc536d586f0a5b",
+    "timestamp": "2026-03-31T00:10:22.976Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "c78c68b6-278f-40f1-91b7-620a4c1a2e6d",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 25000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "jonas",
+        "executor": ""
+      },
+      "emergency": false,
+      "risk_before": 25.91,
+      "risk_after": 20.73,
+      "token": "4b7e8c498884a6c2f92aa68540378b6a"
+    },
+    "hash": "22c19cbbe0c384f0bc9b86ac7b9928bc563ad04645f9d87086f3c801271bb03a",
+    "timestamp": "2026-03-31T00:10:35.130Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "1ddd1aaf-528e-477b-aa1a-626d91f6b9dc",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 20000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "219a71e1aff663e64beac25582e01139bbce22cd2ea0cfc252c5ab57fb514ac5",
+    "timestamp": "2026-03-31T00:16:56.032Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "1ddd1aaf-528e-477b-aa1a-626d91f6b9dc",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 20000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 20.07,
+      "risk_after": 16.06,
+      "token": "c2bd71baf7f356e15b51e63be7f1cfa5"
+    },
+    "hash": "b8ea50e1f7d633fcfce38ac792f49715a2810bb4d5a61ca2eddfe51def21202e",
+    "timestamp": "2026-03-31T00:16:58.300Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "1ddd1aaf-528e-477b-aa1a-626d91f6b9dc",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 20000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 20.6,
+      "risk_after": 16.48,
+      "token": "50ae1f102d1c6f7178e542ef2b06a543"
+    },
+    "hash": "2bc505d44200d41ce2b6fc523c4a6b0cff352d6df016dac95ef2b5aa6a25add4",
+    "timestamp": "2026-03-31T00:17:03.152Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "1ddd1aaf-528e-477b-aa1a-626d91f6b9dc",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": null,
+      "value": 20000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "jonas",
+        "executor": ""
+      },
+      "emergency": false,
+      "risk_before": 20.6,
+      "risk_after": 16.48,
+      "token": "50ae1f102d1c6f7178e542ef2b06a543"
+    },
+    "hash": "9ffd506e1ee23db230ca1e544bbafe115e331b4eebf7381a442246a92d9372fb",
+    "timestamp": "2026-03-31T00:17:05.135Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "47bf9011-6d63-4f54-8d44-c1d8a1103bf3",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 50000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "1ec16b365e38f834fd3ba701a1ea42165172c2a8357f3d3db12bac4f2032f545",
+    "timestamp": "2026-03-31T00:20:40.949Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "47bf9011-6d63-4f54-8d44-c1d8a1103bf3",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 50000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 50.51,
+      "risk_after": 40.41,
+      "token": "da23af2b8598d3508d42cbf4729087df"
+    },
+    "hash": "9128cf55a7f5868e970d776ec3c710a6137bc7e61d0d8d00dbe37b1faa155808",
+    "timestamp": "2026-03-31T00:20:43.147Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "47bf9011-6d63-4f54-8d44-c1d8a1103bf3",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 50000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "jonas",
+        "executor": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 50.51,
+      "risk_after": 40.41,
+      "token": "da23af2b8598d3508d42cbf4729087df"
+    },
+    "hash": "e1f830a5da72d21b733937cc1fdd9f0571994dba946df9c50b5fa360aff242a0",
+    "timestamp": "2026-03-31T00:20:59.345Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "b7b469ed-df02-4663-9a77-a2bfdd49b404",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 60000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "9a63cf2f0f7c066ab71032d5f04bcbb04d8825a4f2eedfd547b072bf2acea00c",
+    "timestamp": "2026-03-31T00:24:01.171Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "b7b469ed-df02-4663-9a77-a2bfdd49b404",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 60000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 60.94,
+      "risk_after": 48.76,
+      "token": "a41067b20d4aa318e42b060f60074f89"
+    },
+    "hash": "6d18b5f9b1027183225bb71eb37bb7bc5d7bd508e3a63ffe9788ffb6b951c5fa",
+    "timestamp": "2026-03-31T00:24:02.912Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "b7b469ed-df02-4663-9a77-a2bfdd49b404",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 60000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "jonas",
+        "executor": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 60.94,
+      "risk_after": 48.76,
+      "token": "a41067b20d4aa318e42b060f60074f89"
+    },
+    "hash": "8e3d5c64f7d84c52d37c238076ecf501a5ca9efd5f189aa4c1373706a029d3ef",
+    "timestamp": "2026-03-31T00:24:06.172Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "7253b850-ee56-4c09-ac02-8fa78482577c",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 60000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "8351d94e58133e0008bbb7127bfe93c78807f2139f9fa1e49b570361f301736a",
+    "timestamp": "2026-03-31T00:24:22.974Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "7253b850-ee56-4c09-ac02-8fa78482577c",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 60000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 60.48,
+      "risk_after": 48.38,
+      "token": "34167315d43e962cc6f9ff1667df816e"
+    },
+    "hash": "2a1fc1c38f7eb09f1503ed3d7e3d072fd8824a31df1d15c2802cd5a43b5b1908",
+    "timestamp": "2026-03-31T00:24:30.440Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "7253b850-ee56-4c09-ac02-8fa78482577c",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 60000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 60.91,
+      "risk_after": 48.73,
+      "token": "a55bd3980cd9be1578f89b5dc31583f8"
+    },
+    "hash": "536edde69b4beb97d9fe93fc4fcb0814e3a3f5375cc2d2fc367eeb3d5175ca1e",
+    "timestamp": "2026-03-31T00:24:38.827Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "2dad63b3-77e2-4298-982e-2566b5c9bdab",
+      "title": "finanças",
+      "owner": "Jonas",
+      "criticality": 8,
+      "value": 45000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "Jonas"
+      },
+      "emergency": false
+    },
+    "hash": "ff15be13db4ee3ce0655036a203500aea54780a802ffd4f9a28456f698977d54",
+    "timestamp": "2026-03-31T00:25:03.467Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "2dad63b3-77e2-4298-982e-2566b5c9bdab",
+      "title": "finanças",
+      "owner": "Jonas",
+      "criticality": 8,
+      "value": 45000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "Jonas"
+      },
+      "emergency": false,
+      "risk_before": 45.24,
+      "risk_after": 36.19,
+      "token": "5a37f483a5d343215cecefcdbdbefa25"
+    },
+    "hash": "3b73a8786ab7df1e7876bc85c299650f4df3b3b06912828b9d4943549db4deba",
+    "timestamp": "2026-03-31T00:25:04.962Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "2dad63b3-77e2-4298-982e-2566b5c9bdab",
+      "title": "finanças",
+      "owner": "Jonas",
+      "criticality": 8,
+      "value": 45000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "Jonas",
+        "executor": "Jonas"
+      },
+      "emergency": false,
+      "risk_before": 45.24,
+      "risk_after": 36.19,
+      "token": "5a37f483a5d343215cecefcdbdbefa25"
+    },
+    "hash": "fa8f0ed7d80ee4986fa5d8cd870463610e52516f9d5b7f82309b48ac6ee807d6",
+    "timestamp": "2026-03-31T00:25:07.568Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "fb342522-7944-446c-ac69-f5219afe43ac",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 40000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "13809221e415fae32323020084ba5c25042946fede13898a57c66db77b5cf539",
+    "timestamp": "2026-03-31T00:27:30.677Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "fb342522-7944-446c-ac69-f5219afe43ac",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 40000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 40.07,
+      "risk_after": 32.05,
+      "token": "7eac179d0108e5760c8f9e31a3b3fe4e"
+    },
+    "hash": "6a958dbcc7200549b51052623293a8cc5f411a4aa23937a8586f241a4cbfdd7c",
+    "timestamp": "2026-03-31T00:27:33.182Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "fb342522-7944-446c-ac69-f5219afe43ac",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 40000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "jonas",
+        "executor": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 40.07,
+      "risk_after": 32.05,
+      "token": "7eac179d0108e5760c8f9e31a3b3fe4e"
+    },
+    "hash": "68e8f0cd1335bb7499889ba2b8d34857ffe108c8d39cc0b13d01ac38a2f704e6",
+    "timestamp": "2026-03-31T00:27:35.204Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "8546c977-7ec1-4b4b-bd08-2992adde0887",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 60000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "107de3aa566f972efdec864fc8b7fee00736af5b984d54b74d77fbc468ee80bf",
+    "timestamp": "2026-03-31T00:29:16.005Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "8546c977-7ec1-4b4b-bd08-2992adde0887",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 60000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 60.28,
+      "risk_after": 48.23,
+      "token": "ffe456998ae85ca23762525aaffe4cd5"
+    },
+    "hash": "7e969bac2e9d9cf47fa63492681508ad097010feea73a0c989d1e542db66fd6b",
+    "timestamp": "2026-03-31T00:29:18.035Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "8546c977-7ec1-4b4b-bd08-2992adde0887",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 60000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "jonas",
+        "executor": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 60.28,
+      "risk_after": 48.23,
+      "token": "ffe456998ae85ca23762525aaffe4cd5"
+    },
+    "hash": "438a0d4b53010aad59a2748288e536bac3cbac2f914aa2d3de2c485db58fbc75",
+    "timestamp": "2026-03-31T00:29:19.800Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "2af1943f-2746-429e-8757-9d91a2d3a4a0",
+      "title": "finanaçasjonas",
+      "owner": "",
+      "criticality": 8,
+      "value": 40000,
+      "status": "CREATED",
+      "roles": {
+        "creator": ""
+      },
+      "emergency": false
+    },
+    "hash": "770f732bbac6b430c772da119e12b3fb3c60d532a5cf4eec7e74741b4c441a86",
+    "timestamp": "2026-03-31T00:34:46.271Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "2af1943f-2746-429e-8757-9d91a2d3a4a0",
+      "title": "finanaçasjonas",
+      "owner": "",
+      "criticality": 8,
+      "value": 40000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": ""
+      },
+      "emergency": false,
+      "risk_before": 40.09,
+      "risk_after": 32.08,
+      "token": "1bb5bd7016501acbcd9b284944273407"
+    },
+    "hash": "3cca11720c080fbb03f907ccce6302d09290bcf9184daa53462ce1751cb1d853",
+    "timestamp": "2026-03-31T00:34:48.303Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "2af1943f-2746-429e-8757-9d91a2d3a4a0",
+      "title": "finanaçasjonas",
+      "owner": "",
+      "criticality": 8,
+      "value": 40000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "",
+        "executor": "admin"
+      },
+      "emergency": false,
+      "risk_before": 40.09,
+      "risk_after": 32.08,
+      "token": "1bb5bd7016501acbcd9b284944273407"
+    },
+    "hash": "52b762f9c54b89b27ef56b4d0de0d8f72054d4269161c800135531bdc1e4aa3a",
+    "timestamp": "2026-03-31T00:34:50.372Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "e6129317-e9c5-4ed9-8fb8-132c30aa2031",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 40000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "6ac1194e29116f855b50edb11415638069a55784216088521195ec7ffb36c3db",
+    "timestamp": "2026-03-31T00:37:51.831Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "e6129317-e9c5-4ed9-8fb8-132c30aa2031",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 40000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 40.28,
+      "risk_after": 32.23,
+      "token": "30d528faa204b154f7adfe2954296d4b"
+    },
+    "hash": "6c1c1335da140535a0da71c8130c5e700c6735c92084f126f740aeae595f022c",
+    "timestamp": "2026-03-31T00:37:53.921Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "e6129317-e9c5-4ed9-8fb8-132c30aa2031",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 8,
+      "value": 40000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "jonas",
+        "executor": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 40.28,
+      "risk_after": 32.23,
+      "token": "30d528faa204b154f7adfe2954296d4b"
+    },
+    "hash": "6f786dba336e413177db346a9df192d2ad14f2bf558baf6b3282bfb2174beea3",
+    "timestamp": "2026-03-31T00:37:55.881Z"
+  },
+  {
+    "action": "CREATE",
+    "decision": {
+      "id": "0b2c2a53-3aa4-414c-b218-19ddbc6420ff",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 85000,
+      "status": "CREATED",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false
+    },
+    "hash": "233dd977d9275cb9a9650b99d21472a964097b1e8e21a3fd45ba03bd47e3e33d",
+    "timestamp": "2026-03-31T14:34:36.840Z"
+  },
+  {
+    "action": "EXECUTABLE",
+    "decision": {
+      "id": "0b2c2a53-3aa4-414c-b218-19ddbc6420ff",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 85000,
+      "status": "EXECUTABLE",
+      "roles": {
+        "creator": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 85.8,
+      "risk_after": 68.64,
+      "token": "bfd6e355e298f43a4a17bb432bf61451"
+    },
+    "hash": "c318336e5beb6201b1c419e3b0040d772bcebae002bed0e9cacdd7051468cd5e",
+    "timestamp": "2026-03-31T14:34:39.459Z"
+  },
+  {
+    "action": "EXECUTE",
+    "decision": {
+      "id": "0b2c2a53-3aa4-414c-b218-19ddbc6420ff",
+      "title": "finanças",
+      "owner": "jonas",
+      "criticality": 7,
+      "value": 85000,
+      "status": "EXECUTED",
+      "roles": {
+        "creator": "jonas",
+        "executor": "jonas"
+      },
+      "emergency": false,
+      "risk_before": 85.8,
+      "risk_after": 68.64,
+      "token": "bfd6e355e298f43a4a17bb432bf61451"
+    },
+    "hash": "d8efcbd04a3d82ba3a419ece4ee7cdc763f17e5763a8fa135f5b1068dce93174",
+    "timestamp": "2026-03-31T14:34:42.149Z"
+  }
+]

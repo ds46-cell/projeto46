@@ -1,0 +1,7 @@
+module.exports = {
+  CREATOR: 'CREATOR',
+  ANALYST: 'ANALYST',
+  APPROVER: 'APPROVER',
+  AUDITOR: 'AUDITOR',
+  ADMIN: 'ADMIN'
+};
