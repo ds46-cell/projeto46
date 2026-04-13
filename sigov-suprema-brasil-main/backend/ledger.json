@@ -1,0 +1,523 @@
+[
+  {
+    "timestamp": "2026-01-04T12:41:57.493Z",
+    "data": {
+      "empresa": "Empresa Alpha",
+      "tipo": "financeiro",
+      "nivelRisco": 9,
+      "descricao": "Risco de liquidez"
+    },
+    "previousHash": "GENESIS",
+    "hash": "27c3c5a5a13819fc3500f35e096f6c1935704669d36a1fe26e2ae9745fb1b10b"
+  },
+  {
+    "timestamp": "2026-01-04T13:16:59.168Z",
+    "data": {
+      "empresa": "Empresa Gamma",
+      "tipo": "financeiro",
+      "nivelRisco": 9,
+      "descricao": "Teste final",
+      "risk": "CRITICO"
+    },
+    "previousHash": "27c3c5a5a13819fc3500f35e096f6c1935704669d36a1fe26e2ae9745fb1b10b",
+    "hash": "98ae814bb558575bb49376297cf060448544d7c4b11bd45704bded8410225801"
+  },
+  {
+    "timestamp": "2026-01-04T13:53:15.303Z",
+    "data": {
+      "empresa": "Empresa Delta",
+      "tipo": "operacional",
+      "nivelRisco": 7,
+      "descricao": "Falha sist�mica",
+      "risk": "ALTO"
+    },
+    "previousHash": "98ae814bb558575bb49376297cf060448544d7c4b11bd45704bded8410225801",
+    "hash": "1093fd059b14dc8b68ec93d0dab7605388408670897a85615debcbab06708d58"
+  },
+  {
+    "timestamp": "2026-01-06T00:35:18.054Z",
+    "empresa": "Global Bank Intl",
+    "tipo": "financeiro",
+    "nivelRisco": 9,
+    "descricao": "Systemic banking collapse risk",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "1093fd059b14dc8b68ec93d0dab7605388408670897a85615debcbab06708d58",
+    "hash": "81358919747c06e4b154c8d4961a7b7785dae7b2f79f4712bef045e5275fbab5"
+  },
+  {
+    "timestamp": "2026-01-06T15:30:38.083Z",
+    "empresa": "Global Bank Intl",
+    "tipo": "financeiro",
+    "nivelRisco": 9,
+    "descricao": "Persistent systemic risk test",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "81358919747c06e4b154c8d4961a7b7785dae7b2f79f4712bef045e5275fbab5",
+    "hash": "67b70b91e1e01c6fc8c1be9902b1ab4e8d6a17f9228bc32d1126fe758f7ea786"
+  },
+  {
+    "timestamp": "2026-01-06T20:41:59.204Z",
+    "empresa": "Global Bank Intl",
+    "tipo": "financeiro",
+    "nivelRisco": 9,
+    "descricao": "Systemic banking collapse risk",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "67b70b91e1e01c6fc8c1be9902b1ab4e8d6a17f9228bc32d1126fe758f7ea786",
+    "hash": "134ec04f92e2ec40478464d853e4d80a7e4450aa1d27fe58f15db49e9c10b8a3"
+  },
+  {
+    "timestamp": "2026-01-06T21:05:19.709Z",
+    "empresa": "Global Bank Intl",
+    "tipo": "financeiro",
+    "nivelRisco": 9,
+    "descricao": "Systemic banking collapse risk",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "134ec04f92e2ec40478464d853e4d80a7e4450aa1d27fe58f15db49e9c10b8a3",
+    "hash": "3bdb228ce19a87ff2902f76470a8bbafb51db8b513db1b7fc1b7a3b1d913c91c"
+  },
+  {
+    "timestamp": "2026-01-06T21:05:19.748Z",
+    "empresa": "Impacto sistêmico (energia)",
+    "tipo": "energia",
+    "nivelRisco": 7,
+    "descricao": "Risco derivado do setor financeiro",
+    "risk": "HIGH",
+    "score": 70,
+    "propagated": true,
+    "previousHash": "3bdb228ce19a87ff2902f76470a8bbafb51db8b513db1b7fc1b7a3b1d913c91c",
+    "hash": "71dbf9117f4abd41d48740b8f926c764ef32beb132b6e936e3480fb96bcaf6a1"
+  },
+  {
+    "timestamp": "2026-01-06T21:05:19.751Z",
+    "empresa": "Impacto sistêmico (tecnologia)",
+    "tipo": "tecnologia",
+    "nivelRisco": 7,
+    "descricao": "Risco derivado do setor financeiro",
+    "risk": "HIGH",
+    "score": 70,
+    "propagated": true,
+    "previousHash": "71dbf9117f4abd41d48740b8f926c764ef32beb132b6e936e3480fb96bcaf6a1",
+    "hash": "abe062e86f720a7cd556d9090dc097d02e95c1f3c1c62250916ad13e2600b42b"
+  },
+  {
+    "timestamp": "2026-01-06T22:32:25.863Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "abe062e86f720a7cd556d9090dc097d02e95c1f3c1c62250916ad13e2600b42b",
+    "hash": "b4a3617061ee061ce975aa2ab76ff5b541fe132d53e02bc3b047baf646e563e1"
+  },
+  {
+    "timestamp": "2026-01-06T22:32:44.643Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "b4a3617061ee061ce975aa2ab76ff5b541fe132d53e02bc3b047baf646e563e1",
+    "hash": "836276ecf770e310ccb1b8bb85c69f39068522cdf9d087cf1d4efd7b2ef9ba79"
+  },
+  {
+    "timestamp": "2026-01-06T22:34:16.165Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "836276ecf770e310ccb1b8bb85c69f39068522cdf9d087cf1d4efd7b2ef9ba79",
+    "hash": "bbbd598cb8dace32f22401dca00eee15be315e95ec8e596be1280e07a32d8a2a"
+  },
+  {
+    "timestamp": "2026-01-06T23:46:13.552Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "bbbd598cb8dace32f22401dca00eee15be315e95ec8e596be1280e07a32d8a2a",
+    "hash": "77d4f1dad1c6b4d81dbd95855463d7964b0bc2eb386e4cbf425fc68c1b60230b"
+  },
+  {
+    "timestamp": "2026-01-06T23:46:35.679Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "77d4f1dad1c6b4d81dbd95855463d7964b0bc2eb386e4cbf425fc68c1b60230b",
+    "hash": "5f99e577e83e6b20a929cbf4fb2805326d1c83e2aace081c9c61d918ecb1f2f5"
+  },
+  {
+    "timestamp": "2026-01-06T23:49:19.047Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "risk": "CRITICAL",
+    "score": 90,
+    "recommendation": {
+      "pt": "Ação imediata do comitê executivo.",
+      "en": "Immediate executive committee action required."
+    },
+    "previousHash": "5f99e577e83e6b20a929cbf4fb2805326d1c83e2aace081c9c61d918ecb1f2f5",
+    "hash": "5cb04722e2aab918ab88a1c583a52450471fa74caaee1287584ba4f7f91fd822"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-06T23:58:09.398Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "5cb04722e2aab918ab88a1c583a52450471fa74caaee1287584ba4f7f91fd822",
+    "hash": "7c80180ebdef3e208c2826671fad2faf37f18f8b85ac02997fd4285fa5a25c15"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:10:39.436Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "7c80180ebdef3e208c2826671fad2faf37f18f8b85ac02997fd4285fa5a25c15",
+    "hash": "302d6f01cd6a50f846817ca8f09303817b769dda4d02ba73a7527ce1ed0274b2"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:16:42.106Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "302d6f01cd6a50f846817ca8f09303817b769dda4d02ba73a7527ce1ed0274b2",
+    "hash": "4fbd63418a274cefed20c6bf65f32fd73c181bd343af5a115811e6eb1b4fe2c8"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:20:15.861Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "4fbd63418a274cefed20c6bf65f32fd73c181bd343af5a115811e6eb1b4fe2c8",
+    "hash": "55f2620e3010df7c58fe964f615dbf9ea9a246d05390929a168e5b28adc66086"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:28:18.378Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "55f2620e3010df7c58fe964f615dbf9ea9a246d05390929a168e5b28adc66086",
+    "hash": "dbd1e0687809dc97f9ed39ced799f06b901521a2e377e6a852ef71100d087fb4"
+  },
+  {
+    "0": "L",
+    "1": "O",
+    "2": "W",
+    "timestamp": "2026-01-07T14:33:48.273Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "dbd1e0687809dc97f9ed39ced799f06b901521a2e377e6a852ef71100d087fb4",
+    "hash": "651dfeeab8d59a46e991553aaa50f51aacf7fa3320b08dea126d617f877e2d82"
+  },
+  {
+    "timestamp": "2026-01-07T14:38:11.604Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "651dfeeab8d59a46e991553aaa50f51aacf7fa3320b08dea126d617f877e2d82",
+    "hash": "c8e3bdb1773317c5ef8fab3302a071d44125c4f255c8c71dc4a7333da81d2670"
+  },
+  {
+    "timestamp": "2026-01-07T14:38:11.634Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "c8e3bdb1773317c5ef8fab3302a071d44125c4f255c8c71dc4a7333da81d2670",
+    "hash": "911cfd49ee2f5ccfb952e19547e8ac839c6a41d7b1c48149527ffc7bb112b27a"
+  },
+  {
+    "timestamp": "2026-01-07T14:38:11.634Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "911cfd49ee2f5ccfb952e19547e8ac839c6a41d7b1c48149527ffc7bb112b27a",
+    "hash": "e4290a15263bcdbff2049368ebe5d54d1f386369aa365b6af090931e11beb286"
+  },
+  {
+    "timestamp": "2026-01-07T14:41:41.467Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "e4290a15263bcdbff2049368ebe5d54d1f386369aa365b6af090931e11beb286",
+    "hash": "7e5ebf1c2a72a6d38d2194ff6121dd08db843732065fcf2ac9f5cfa7f8cff2e9"
+  },
+  {
+    "timestamp": "2026-01-07T14:41:41.518Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "7e5ebf1c2a72a6d38d2194ff6121dd08db843732065fcf2ac9f5cfa7f8cff2e9",
+    "hash": "8897bfa5bde2d9562334dd68e9199d5e4108284efadffc8855df64442c09c9ac"
+  },
+  {
+    "timestamp": "2026-01-07T14:41:41.518Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "8897bfa5bde2d9562334dd68e9199d5e4108284efadffc8855df64442c09c9ac",
+    "hash": "a35bde47c4a4ee0056b4ab59ab22650fa2792c15e9a6b9220b074510a6bd5c50"
+  },
+  {
+    "timestamp": "2026-01-07T14:46:05.625Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "a35bde47c4a4ee0056b4ab59ab22650fa2792c15e9a6b9220b074510a6bd5c50",
+    "hash": "d02a4d6c6e4590997266b0382ba710a4acfd236f21c00d56e7fe834ac2701644"
+  },
+  {
+    "timestamp": "2026-01-07T14:46:05.703Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "d02a4d6c6e4590997266b0382ba710a4acfd236f21c00d56e7fe834ac2701644",
+    "hash": "76f4f8531eaab19b3aa6a34fdfeee0e981dd981a96ba5f912b36a40becdf00dc"
+  },
+  {
+    "timestamp": "2026-01-07T14:46:05.703Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "76f4f8531eaab19b3aa6a34fdfeee0e981dd981a96ba5f912b36a40becdf00dc",
+    "hash": "e75c16819aa66342a6a6914375f6acf0b8d2de3c05837bdffd862863fe0f6ed9"
+  },
+  {
+    "timestamp": "2026-01-07T14:52:10.867Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "e75c16819aa66342a6a6914375f6acf0b8d2de3c05837bdffd862863fe0f6ed9",
+    "hash": "00589e58686d29a0ff66b464e58a9f82393f2080c4639f991ef54e512a9c8231"
+  },
+  {
+    "timestamp": "2026-01-07T14:52:10.942Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "00589e58686d29a0ff66b464e58a9f82393f2080c4639f991ef54e512a9c8231",
+    "hash": "6e6fe236d8b6467e01b2dc83708b1121da866ffd24875857e3fb256873d31ab1"
+  },
+  {
+    "timestamp": "2026-01-07T14:52:10.942Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "6e6fe236d8b6467e01b2dc83708b1121da866ffd24875857e3fb256873d31ab1",
+    "hash": "008362767a8b21dbd1a2a2461d9dc87ae086fa671489f6814117cce4538fcb03"
+  },
+  {
+    "timestamp": "2026-01-07T14:54:59.803Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "008362767a8b21dbd1a2a2461d9dc87ae086fa671489f6814117cce4538fcb03",
+    "hash": "536ea871d08a9a3fccaea7ee1cdf8b62b5488f802ac29f2a2ae00a7d0c027ff9"
+  },
+  {
+    "timestamp": "2026-01-07T14:54:59.849Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "536ea871d08a9a3fccaea7ee1cdf8b62b5488f802ac29f2a2ae00a7d0c027ff9",
+    "hash": "7aea334b481f3a4e2bde4ecd7e4fec9f172849b507a172ea0b68f66458fe2fff"
+  },
+  {
+    "timestamp": "2026-01-07T14:54:59.849Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "7aea334b481f3a4e2bde4ecd7e4fec9f172849b507a172ea0b68f66458fe2fff",
+    "hash": "11f10d93b24429fe84bb76725c5dbd86c1e4393c872e2fc2bf68cf6adfe73c6c"
+  },
+  {
+    "timestamp": "2026-01-07T20:43:16.963Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "11f10d93b24429fe84bb76725c5dbd86c1e4393c872e2fc2bf68cf6adfe73c6c",
+    "hash": "4446440cd075b6530110671525ce42930183a697b6c0bbfae7eb194c37d1b5e7"
+  },
+  {
+    "timestamp": "2026-01-07T20:43:17.044Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "4446440cd075b6530110671525ce42930183a697b6c0bbfae7eb194c37d1b5e7",
+    "hash": "10d2de5b30bad24f48d875662f587474068947c914319da99cf0462b983d1f64"
+  },
+  {
+    "timestamp": "2026-01-07T20:43:17.044Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "10d2de5b30bad24f48d875662f587474068947c914319da99cf0462b983d1f64",
+    "hash": "2a08ea306d5620319e32519619163f3c79ab0a33dde6e641aac966bae99cc3b1"
+  },
+  {
+    "timestamp": "2026-01-08T00:23:55.040Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "2a08ea306d5620319e32519619163f3c79ab0a33dde6e641aac966bae99cc3b1",
+    "hash": "f2ad7ac01ad616b7ea0b11bc6f255fe92f80c7e053c637e9d30b039e432957a2"
+  },
+  {
+    "timestamp": "2026-01-08T00:23:55.127Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "f2ad7ac01ad616b7ea0b11bc6f255fe92f80c7e053c637e9d30b039e432957a2",
+    "hash": "7a01f8bf0c5975f1cfb90c5fe8b65839d7ab6f5993cccccb166aa8f8f0ade03e"
+  },
+  {
+    "timestamp": "2026-01-08T00:23:55.127Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "7a01f8bf0c5975f1cfb90c5fe8b65839d7ab6f5993cccccb166aa8f8f0ade03e",
+    "hash": "ed57e9b726e206d64e4345255e9bc49f4e6c9e45430c8d2be5b6f5868b3d5dd7"
+  },
+  {
+    "timestamp": "2026-01-09T00:37:59.908Z",
+    "country": "Germany",
+    "sector": "Energy",
+    "empresa": "EU Energy Grid",
+    "tipo": "infraestrutura",
+    "nivelRisco": 9,
+    "descricao": "Cross-border energy supply collapse",
+    "previousHash": "ed57e9b726e206d64e4345255e9bc49f4e6c9e45430c8d2be5b6f5868b3d5dd7",
+    "hash": "b95e5dc0fb1eaa12a2d7683aaf5ad6a82f96e44b2fc692a7b2d76bca7260474d"
+  },
+  {
+    "timestamp": "2026-01-09T00:38:00.017Z",
+    "sector": "financeiro",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "b95e5dc0fb1eaa12a2d7683aaf5ad6a82f96e44b2fc692a7b2d76bca7260474d",
+    "hash": "597ec0857a7b6a4d1b67436490687ebddf158fceb2dc1d912aa53649b060e7af"
+  },
+  {
+    "timestamp": "2026-01-09T00:38:00.017Z",
+    "sector": "industria",
+    "source": "EU Energy Grid",
+    "inheritedRisk": "UNKNOWN",
+    "previousHash": "597ec0857a7b6a4d1b67436490687ebddf158fceb2dc1d912aa53649b060e7af",
+    "hash": "102ee3427a7d0e00ee1d58932a868f9dea156f9dd6718af1ccc2f87d102d7762"
+  }
+]

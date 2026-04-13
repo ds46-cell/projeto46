@@ -1,0 +1,12 @@
+module.exports = {
+  type: 'ENTERPRISE_SOVEREIGN',
+  minimumAnnualValueUSD: 20000000,
+  jurisdiction: 'INTERNATIONAL_ARBITRATION',
+  clauses: [
+    'NO_REVERSE_ENGINEERING',
+    'MANDATORY_AUDIT',
+    'IMMEDIATE_SUSPENSION_ON_BREACH',
+    'EXCLUSIVE_USE',
+    'NON_TRANSFERABLE'
+  ]
+}
