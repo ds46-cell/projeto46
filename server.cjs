@@ -2,7 +2,7 @@ const express = require("express");
 const { Pool } = require("pg");
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs"); // 🔥 TROQUEI PRA bcryptjs (resolve erro no Render)
 const crypto = require("crypto");
 
 // 🧠 CORE ENGINE
@@ -48,8 +48,6 @@ function rateLimit(req, res, next) {
 app.use(rateLimit);
 
 /* ================== DB ================== */
-
-// 🔥 DETECTA AMBIENTE AUTOMATICAMENTE
 let pool;
 
 try {
@@ -63,7 +61,6 @@ try {
 
     console.log("🌐 Usando DATABASE_URL");
   } else {
-    // fallback LOCAL (corrige erro do "role Ds46 não existe")
     pool = new Pool({
       user: "postgres",
       host: "localhost",
@@ -177,6 +174,14 @@ function requireAdmin(req, res, next) {
   next();
 }
 
+/* ================== HEALTH (🔥 ESSENCIAL PRO RENDER) ================== */
+app.get("/", (req, res) => {
+  return success(res, {
+    status: "OK",
+    message: "API SIGOV rodando 🚀",
+  });
+});
+
 /* ================== ORG ================== */
 app.post("/v1/org/create", async (req, res) => {
   try {
@@ -272,13 +277,6 @@ app.post("/v1/decision/analyze", auth, async (req, res) => {
 
     if (!organization) return fail(res, 404, "Org not found");
 
-    if (
-      organization.plan === "basic" &&
-      organization.usage_count >= 10000
-    ) {
-      return fail(res, 403, "Usage limit reached");
-    }
-
     const result = analyzeDecision({
       value: toNumber(value),
       criticality: toNumber(criticality),
@@ -301,11 +299,6 @@ app.post("/v1/decision/analyze", auth, async (req, res) => {
       ]
     );
 
-    await pool.query(
-      "UPDATE organizations SET usage_count = usage_count + 1 WHERE id=$1",
-      [req.user.org_id]
-    );
-
     await logAction(
       req.user.org_id,
       req.user.id,
@@ -319,37 +312,6 @@ app.post("/v1/decision/analyze", auth, async (req, res) => {
   }
 });
 
-/* ================== LOGS ================== */
-app.get("/v1/logs", auth, requireAdmin, async (req, res) => {
-  try {
-    const logs = await pool.query(
-      "SELECT * FROM logs WHERE org_id=$1 ORDER BY id DESC",
-      [req.user.org_id]
-    );
-
-    return success(res, logs.rows);
-  } catch (err) {
-    return fail(res, 500, err.message);
-  }
-});
-
-/* ================== DEMO ================== */
-app.get("/v1/demo", (req, res) => {
-  return success(res, {
-    name: "Decision Intelligence Platform",
-    version: "1.0",
-    status: "READY FOR ENTERPRISE",
-  });
-});
-
-/* ================== HEALTH ================== */
-app.get("/", (req, res) => {
-  return success(res, {
-    status: "OK",
-    product: "Decision Intelligence Platform",
-  });
-});
-
 /* ================== START ================== */
 (async () => {
   try {
@@ -360,4 +322,4 @@ app.get("/", (req, res) => {
   } catch (err) {
     console.error("Startup error:", err.message);
   }
-})()
+})();
